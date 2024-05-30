@@ -1,0 +1,411 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .top ul {
+    display: flex;
+    gap: 65px;
+  }
+
+  .top ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .logo img {
+    width: 180px;
+  }
+
+  .wow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 40px;
+    padding: 100px;
+  }
+
+  .wow span{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 44px;
+
+  }
+
+  .wow span img{
+    width: 115px;
+  }
+
+  .wow p{
+    font-size: 25px;
+    text-align: center;
+    width: 50vw;
+  }
+
+  .wow button{
+    background-color: rgb(10, 178, 250);
+    padding: 18px 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .sec{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60vw;
+    margin: auto;
+  }
+
+  .sec big{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .big{
+    font-size: 23px;
+  }
+
+  .smol{
+    font-size: 14px ;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+
+  .blu{
+    background-color: rgb(10, 178, 250);
+    padding: 18px 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .green{
+    background-color: rgb(77, 219, 56);
+    padding: 18px 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .item{
+    padding: 25px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .lang{
+    text-align: center;
+    padding-bottom: 12px;
+  }
+
+  .niga{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    
+  }
+
+  @media screen and (max-width: 1802px) {
+    .blu{
+        margin: 6px;
+    }
+    .green{
+        margin: 6px;
+    }
+  }
+
+  .sub{
+    font-size: small;
+    font-weight: lighter;
+    padding-bottom: 48px;
+  }
+
+  .len{
+    padding-bottom: 75px;
+  }
+
+  .third{
+    background-color: #222222 ;
+    margin: -8px;
+    padding: 0px;
+    height: 50pc;
+    
+    margin-top: 80px;
+  }
+
+  .nws{
+    
+    display: flex;
+    color: #f9f9f9;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+  }
+
+  .swed{
+    text-align: center;
+  }
+
+  .welp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #222222;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 120px;
+  }
+
+  .subs{
+    color: #00b6d1;
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .em{
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .sign{
+    background-color: #00b6d1;
+    color: #f9f9f9;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 330px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .letter{
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .blog{
+    font-size: 16px;
+    width: 22vw;
+    padding-top: 10px;
+  }
+
+  .exe{
+    color: white;
+  }
+
+  .prime{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .dam{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 13px;
+  }
+
+  .bc{
+    font-size: 16px;
+    padding-bottom: 23px;
+  }
+
+  .mc{
+    font-size: 16px;
+    padding-bottom: 23px;
+  }
+
+  .free{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 13px;
+  }
+
+  .apk{
+    font-size: 16px;
+    width: 48vw;
+  }
+
+  .uni{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 100px;
+    padding: 150px;
+  }
+
+  .code ul li{
+    list-style: none;
+    text-align: start;
+    padding-bottom: 8px;
+    font-weight: lighter;
+  }
+
+  .code{
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .user{
+    font-size: 14px;
+  }
+
+  .user ul li{
+    list-style: none;
+    padding-bottom: 8px;
+    font-weight: lighter;
+  }
+
+  .gen{
+    font-size: 14px;
+  }
+
+  .gen ul li{
+    list-style: none;
+    padding-bottom: 8px;
+    font-weight: lighter;
+  }
+
+  .what{
+    font-size: 17px;
+    padding-bottom: 27px;
+  }
+
+  .you{
+    font-size: 17px;
+    padding-bottom: 27px;
+  }
+
+  .ral{
+    font-size: 17px;
+    padding-bottom: 27px;
+  }
+
+  .event{
+    font-size: 14px;
+  }
+
+  .event ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    font-weight: lighter;
+  }
+
+  .hell{
+    font-size: 17px;
+    padding-bottom: 30px;
+  }
+
+  .get{
+    color: #00b6d1;
+    font-size: 16px;
+  }
+
+  #form{
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px;
+    font-size: 14px;
+    width: 230px;
+    border: 1px solid #22242626;
+    font-weight: lighter;
+  }
+
+  .jatt{
+    margin-left: 38px;
+  }
+
+  .signa{
+    background-color: #00b6d1;
+    color: #f9f9f9;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 38px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+  }
+
+  .vai{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .force{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loh img{
+    width: 190px;
+  }
+
+  .pix img{
+   cursor: pointer;
+  } 
+
+  .pix{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .copyr{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+
+  #bkl{
+    background-color: transparent;
+    padding: 17px;
+    font-size: 14px;
+    width: 292px;
+    border: 1px solid #22242626;
+    font-weight: lighter;
+  }
